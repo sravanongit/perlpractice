@@ -28,3 +28,4 @@ print "\n";
 print "Ranchi belongs to ";
 print $hash{"Ranchi"};
 print "\n";
+print "%hash\n";
