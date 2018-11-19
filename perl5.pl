@@ -7,3 +7,5 @@ print "The smaller number is ";
 $a<$b ? print $a : print $b;
 print "\n";
 print $a<=>$b,"\n";
+$a="Sravan" x 2;
+print $a,"\n";
