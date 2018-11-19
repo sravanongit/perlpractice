@@ -9,3 +9,7 @@ print "\n";
 print $a<=>$b,"\n";
 $a="Sravan" x 2;
 print $a,"\n";
+print "Enter the name: ";
+my $name=<STDIN>;
+chomp($name);
+print "The entered name is $name.\n";
