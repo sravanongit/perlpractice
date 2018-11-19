@@ -13,3 +13,7 @@ print "Enter the name: ";
 my $name=<STDIN>;
 chomp($name);
 print "The entered name is $name.\n";
+my $name="My name is Sravan Kumar.";
+print "$name\n";
+my $name=substr $name, 11, 12,"Ankita";
+print "My gf name is ",$name,".\n";
