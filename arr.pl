@@ -1,31 +1,9 @@
 #!/usr/bin/perl
 use warnings;
 use strict;
-my @week=("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
-print "@week\n";
-my $element=@week;
-my $element1=$#week+1;
-my $element2=scalar(@week);
-print "The number of elements are $element\n";
-print "The number of elements are $element1\n";
-print "The number of elements are $element2\n";
-print "The last element of the array is $week[$#week]\n";
-print "The value at 3rd index from begining is $week[2]\n";
-print "The value at 2nd index from last $week[-2]\n";
-my %hash=("Lucknow" => "UP","Azamgarh" => "UP","Jaunpur" => "UP","Patna" => "Bihar","Ranchi" => "Jharkhand");
-print "Luncknow belongs to ";
-print $hash{"Lucknow"};
+my @array=(1,2,3,4);
+while(@array)
+{
+	print pop @array;
+}
 print "\n";
-print "Lucknow belongs to ";
-print $hash{"Lucknow"};
-print "\n";
-print "Azamgarh belongs to ";
-print $hash{"Azamgarh"};
-print "\n";
-print "Patna belongs to ";
-print $hash{"Patna"};
-print "\n";
-print "Ranchi belongs to ";
-print $hash{"Ranchi"};
-print "\n";
-print "%hash\n";
