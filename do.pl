@@ -15,4 +15,3 @@ do
 	$i=$i+1;
 }while($i<=$input);
 print "\n";
-
