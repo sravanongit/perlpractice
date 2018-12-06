@@ -8,5 +8,5 @@ sub hello(){
 }
 &hello();
 hello();
-&hello();
+&hello;
 print("The hello() function has been called 3 times.\n");
