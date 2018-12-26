@@ -18,4 +18,8 @@ foreach $var (@number)
 print "$var ";
 }
 print "\n";
-
+foreach $var (1..10)
+{
+	print "$var ";
+}
+print "\n";
